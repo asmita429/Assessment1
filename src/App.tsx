@@ -1,14 +1,14 @@
 import React from 'react';
-import RootNav from './navigation/RootNav/RootNav';
-// import Toast from 'react-native-toast-message';
+import Main from './components/Main/Main';
+import Toast from 'react-native-toast-message';
 
 const Root = () => {
   return (
     <>
-      <RootNav />
+      <Main />
+      <Toast />
     </>
   );
 };
 
 export default Root;
-// <Toast />
